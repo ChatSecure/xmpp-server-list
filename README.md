@@ -3,7 +3,7 @@ Public XMPP server list and metadata in JSON format. This list only includes ser
 
 Example:
 
-```json
+```javascript
 {
   "servers": [
     {
