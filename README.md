@@ -10,6 +10,7 @@ Example:
       "name": "Calyx Institute",
       "description": "Non-profit education and research organization focused on privacy technology.",
       "website": "https://www.calyxinstitute.org",
+      "twitter": "https://twitter.com/calyxinstitute", // optional
       "privacy_policy": "https://www.calyxinstitute.org/legal/privacy-policy",
       "logo": "images/calyx.jpg", // can be relative path or absolute URL to an image
       "country_code": "US",
