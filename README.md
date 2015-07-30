@@ -13,9 +13,9 @@ Example:
       "twitter": "https://twitter.com/calyxinstitute", // optional
       "privacy_policy": "https://www.calyxinstitute.org/legal/privacy-policy",
       "logo": "images/calyx.jpg", // can be relative path or absolute URL to an image
-      "country_code": "US",
-      "domain": "calyxinstitute.org",
-      "server": "conference.calyxinstitute.org",
+      "country_code": "NL",
+      "domain": "jabber.calyxinstitute.org",
+      "server": "jabber.calyxinstitute.org",
       "onion": "ijeeynrc6x2uy5ob.onion", // optional
       "port": 5222,
       "requires_otr": true, // indicates if server rejects non-OTR messages
