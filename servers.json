@@ -10,6 +10,7 @@
       "country_code": "US",
       "domain": "dukgo.com",
       "server": "xmpp.dukgo.com",
+      "onion": "wlcpmruglhxp6quz.onion",
       "port": 5222,
       "requires_otr": false,
       "captcha": false,
