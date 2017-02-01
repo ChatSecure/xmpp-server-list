@@ -1,6 +1,21 @@
 {
   "servers": [
     {
+      "name": "Zom",
+      "description": "",
+      "website": "https://zom.im/",
+      "twitter": "",
+      "privacy_policy": "https://zom.im/privacy/",
+      "logo": "images/dukgo.png",
+      "country_code": "US",
+      "domain": "home.zom.im",
+      "server": "home.zom.im",
+      "port": 5222,
+      "requires_otr": false,
+      "captcha": false,
+      "certificate": "MIIFEzCCA/ugAwIBAgISAy8105sV1b6bAYc55qxo8PhhMA0GCSqGSIb3DQEBCwUAMEoxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MSMwIQYDVQQDExpMZXQncyBFbmNyeXB0IEF1dGhvcml0eSBYMzAeFw0xNjExMjIxNTA3MDBaFw0xNzAyMjAxNTA3MDBaMBwxGjAYBgNVBAMTEWNvbmZlcmVuY2Uuem9tLmltMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwkgBmoHQtEic29DZVurfl/EQZdDeckgUxke7rgSOZBBI6yHOyQQ77KKM4pNSx0j9uuw5kiu2/qLn8pkEmdzKXf4kZbTB4t/+j9oW+tPJfxR1mlEONQxK4R89hwU6fxGlKxPxdGOFF16B5WlRkIEJumdL5IUEELdsmSesEPzZ6gZ0uSuIbGPvmP3AXAZYi6pZj7iRnYHAHZ0f5Lb+JtgkLqBd5t6aM/KH2Sr7UCI3lp/8Jid9AtiJK0Fs3tsz7RIogwbeeYYezMYY+PbK09dTOCnVfXopFKrpHjqJ/mWH/1QYdo2zzrs96bBPmU0yUg4nyDv9SSieallHF6qvCPuhzwIDAQABo4ICHzCCAhswDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRMlsQ4++NcI/5IBw1fGHQnjCsQ/zAfBgNVHSMEGDAWgBSoSmpjBH3duubRObemRWXv86jsoTBwBggrBgEFBQcBAQRkMGIwLwYIKwYBBQUHMAGGI2h0dHA6Ly9vY3NwLmludC14My5sZXRzZW5jcnlwdC5vcmcvMC8GCCsGAQUFBzAChiNodHRwOi8vY2VydC5pbnQteDMubGV0c2VuY3J5cHQub3JnLzApBgNVHREEIjAgghFjb25mZXJlbmNlLnpvbS5pbYILaG9tZS56b20uaW0wgf4GA1UdIASB9jCB8zAIBgZngQwBAgEwgeYGCysGAQQBgt8TAQEBMIHWMCYGCCsGAQUFBwIBFhpodHRwOi8vY3BzLmxldHNlbmNyeXB0Lm9yZzCBqwYIKwYBBQUHAgIwgZ4MgZtUaGlzIENlcnRpZmljYXRlIG1heSBvbmx5IGJlIHJlbGllZCB1cG9uIGJ5IFJlbHlpbmcgUGFydGllcyBhbmQgb25seSBpbiBhY2NvcmRhbmNlIHdpdGggdGhlIENlcnRpZmljYXRlIFBvbGljeSBmb3VuZCBhdCBodHRwczovL2xldHNlbmNyeXB0Lm9yZy9yZXBvc2l0b3J5LzANBgkqhkiG9w0BAQsFAAOCAQEAJiE6pppCHuFXkrkscYFW6LO97SUTELXEI/jB7kcSCcC3detxdybxmQkAH4ILbh7IUraJ1tOZQ+/NGn9X+/XYmlOH367GukSr0D7wYfC6QXKIwLH8GLFHyRti9LaOWjP++W5B9jUfGf65Z/8hB+mk9wU/nmDhm3y4XB8n5M8L+l/HsK50+N/PMoAQhbDX46NlYK43A7jGzwd9nHNDEiByI1ljrOMxTBDSBnQvJwfF1GLmnTUPTQzOtZb6koQM2YBz6HqNT7Mn6c8LEvKd7kpo4q5neA+oiGwOaYNGqzBhnJpvsn+Rr8hX1O/tywuSEhX7K21vzJ+o1v5CYpOiWM7eHA=="
+    },
+    {
       "name": "DuckDuckGo",
       "description": "The search engine that doesn't track you.",
       "website": "https://duckduckgo.com",
