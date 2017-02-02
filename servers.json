@@ -2,11 +2,11 @@
   "servers": [
     {
       "name": "Zom",
-      "description": "",
+      "description": "Zom's home servers, setup just right, keeping all your messages safe and sound!",
       "website": "https://zom.im/",
-      "twitter": "",
+      "twitter": "https://twitter.com/zomapp",
       "privacy_policy": "https://zom.im/privacy/",
-      "logo": "images/dukgo.png",
+      "logo": "images/zom.png",
       "country_code": "US",
       "domain": "home.zom.im",
       "server": "home.zom.im",
