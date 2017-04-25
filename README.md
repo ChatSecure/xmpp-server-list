@@ -31,7 +31,7 @@ Example:
 
 ## Domain and Server
 
-Some servers have a domain of `example.com` and a server of `xmpp.example.com`. Server should be the result of SRV lookup.
+Some servers have a domain of `example.com` and a server of `xmpp.example.com`. Server should be the result of SRV lookup, you can retrieve it with dig: `dig _xmpp-client._tcp.example.com SRV`.
 
 This is here mainly to make it possible for users to connect via Tor to servers without .onions, because SRV lookups are not possible over Tor.
 
@@ -53,6 +53,6 @@ You can get the certificate in PEM format from the result on xmpp.net, which nee
 
 Or you can get it directly from the XMPP server:
 
-    $ openssl s_client -starttls xmpp -showcerts -connect <server.address>:5222 < /dev/null 2>/dev/null | openssl x509 -outform der | openssl enc -base64 -A -out certificate.cer.base64
+    $ openssl s_client -starttls xmpp -showcerts -connect example.com:5222 < /dev/null 2>/dev/null | openssl x509 -outform der | openssl enc -base64 -A -out certificate.cer.base64
 
 Option `-starttls xmpp` should only be used for servers using STARTTLS. When in doubt try with and without it.
