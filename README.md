@@ -29,7 +29,7 @@ Example:
 
 ## Domain and Server
 
-Some servers have a domain of `example.com` and a server of `xmpp.example.com`. Server should be the result of SRV lookup.
+Some servers have a domain of `example.com` and a server of `xmpp.example.com`. Server should be the result of SRV lookup, you can retrieve it with dig: `dig _xmpp-client._tcp.example.com SRV`.
 
 This is here mainly to make it possible for users to connect via Tor to servers without .onions, because SRV lookups are not possible over Tor.
 
