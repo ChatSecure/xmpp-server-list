@@ -1,7 +1,7 @@
 # XMPP Server List
 [![Build Status](https://travis-ci.org/ChatSecure/xmpp-server-list.svg?branch=master)](https://travis-ci.org/ChatSecure/xmpp-server-list)
 
-Public XMPP server list and metadata in JSON format. This list only includes servers with 'A' grade on xmpp.net and that allow in-band registration without a captcha.
+Public XMPP server list and metadata in JSON format. This list only includes servers with 'A' grade on [xmpp.net](https://xmpp.net) and that allow [In-Band Registration (XEP-0077)](https://xmpp.org/extensions/xep-0077.html).
 
 Example:
 
@@ -28,7 +28,22 @@ Example:
   ]
 }
 ```
-# Certificates
+
+## Domain and Server
+
+Some servers have a domain of `example.com` and a server of `xmpp.example.com`. Server should be the result of SRV lookup.
+
+This is here mainly to make it possible for users to connect via Tor to servers without .onions, because SRV lookups are not possible over Tor.
+
+## Logos
+
+Logos should have a 1:1 aspect ratio.
+
+## Extensions
+
+You only need to include info about XEP-0357 and XEP-0363. You can omit other extensions, these are the only two required for clients to work properly.
+
+## Certificates
 
 For the `certificate` key we need the certificate in 'der' format, converted to base64 with no linebreaks.
 
