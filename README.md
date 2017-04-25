@@ -51,6 +51,6 @@ You can get the certificate in PEM format from the result on xmpp.net, which nee
 
 Or you can get it directly from the XMPP server:
 
-    $ openssl s_client -starttls xmpp -showcerts -connect <server.address>:5222 < /dev/null 2>/dev/null | openssl x509 -outform der | openssl enc -base64 -A -out certificate.cer.base64
+    $ openssl s_client -starttls xmpp -showcerts -connect example.com:5222 < /dev/null 2>/dev/null | openssl x509 -outform der | openssl enc -base64 -A -out certificate.cer.base64
 
 Option `-starttls xmpp` should only be used for servers using STARTTLS. When in doubt try with and without it.
