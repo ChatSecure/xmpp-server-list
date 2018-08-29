@@ -212,7 +212,7 @@
       "logo": "images/chatme.png",
       "country_code": "FR",
       "domain": "chatme.im",
-      "server": "xmpp.our.1.chatme.im",
+      "server": "xmpp.chatme.im",
       "onion": "hdtp7t4nwifcfkjg.onion",
       "port": 5222,
       "requires_otr": false,
