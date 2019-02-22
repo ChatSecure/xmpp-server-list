@@ -1,6 +1,23 @@
 {
   "servers": [
     {
+      "name": "Niel.site",
+      "description": "We serve an early 2019, well secured, up-to-date xmpp / jabber prosody server with a conversejs webchat client. Both with main focus on security and privacy.",
+      "website": "https://niel.site",
+      "twitter": "https://twitter.com/niel_site",
+      "privacy_policy": "https://niel.site/register.php#policy",
+      "logo": "niel.site.png",
+      "country_code": "CH",
+      "domain": "niel.site",
+      "server": "niel.site",
+      "onion": "nielxmppui7hbk7o.onion",
+      "port": 5222,
+      "extensions": ["XEP-0357", "XEP-0363"],
+      "requires_otr": false,
+      "captcha": false,
+      "certificate": "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"
+    },
+    {
       "name": "Zom",
       "description": "Zom's home servers, setup just right, keeping all your messages safe and sound!",
       "website": "https://zom.im/",
